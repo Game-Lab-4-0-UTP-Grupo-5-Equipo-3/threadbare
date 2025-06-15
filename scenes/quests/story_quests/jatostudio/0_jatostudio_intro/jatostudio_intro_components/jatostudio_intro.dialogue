@@ -1,14 +1,38 @@
 # SPDX-FileCopyrightText: The Threadbare Authors
 # SPDX-License-Identifier: MPL-2.0
+# #################### Keeping these lines for future reference ################################
+# Press enter to add a new line. Each line becomes a new dialogue box in-game.
+# Select Cinematic node; drag your StoryQuest dialogue to the "Dialogue" field in the Inspector.
+# Set the next scene using the "Next Scene" field in the Inspector.
+#
+# Explore other elements to mod, like the placeholder image, tile map, and animation options for this scene!
 
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-Welcome to the StoryQuest template, where you'll learn how to mod elements of each scene and create your own StoryQuest! Let's start with the intro.
-In the Godot FileSystem, find the intro folder and double-click on the intro dialogue file to edit the text.
-Press enter to add a new line. Each line becomes a new dialogue box in-game.
-Select Cinematic node; drag your StoryQuest dialogue to the "Dialogue" field in the Inspector.
-Set the next scene using the "Next Scene" field in the Inspector.
+Pachaq, un joven estudiante y amante de la historia, busca información para su proyecto escolar.
+Pachaq camina a través de las estanterías en búsqueda de libros de historia.
+Su curiosidad lo termina llevando a la sección más olvidada de la biblioteca, donde encuentra...
+...Un libro polvoriento oculto detrás de uno de los estantes.
+Pachaq toma el libro, que parece llamarlo a tomarlo.
+Luego, va con los bibliotecarios para registrar sus libros y salir a casa a ponerse manos a la obra.
+De repente ¡Pachaq es sorprendido por un par de delincuentes que lo siguen!
+Mientras intentaba huir, Pachaq deja caer los libros que tomó prestado.
+Entonces, el libro misterioso cae y se abre, emitiendo una luz ancestral.
+¡Manco Capac, el primer inca, emerge del libro!
+Los delincuentes, sorprendidos por el suceso, corren de la escena.
+MancoCapac: ¿Te encuentras bien?
+Pachaq: Si, gracias
+Pachaq intenta procesar la situación...
+MancoCapac: ¿Buscas hacer justicia?
+Pachaq sigue procesando la situación junto a la propuesta de Manco Capac.
+Por un lado, lo ve como una oportunidad de conocer más de cerca a sus héroes y para como una forma...
+...De traer algo de protección a la ciudad.
+Por otro lado, ve también que es una aventura muy arriesgada, considerando también lo joven que es...
+MancoCapac: Si estás dispuesto, estaré a tu lado. Te entrego este libro para que puedas traer a nuestros
+MancoCapac: Héroes del pasado.
+Pachaq, entonces, decide embarcarse en la aventura.
 do animation_player.play(&"walk_off")
-Explore other elements to mod, like the placeholder image, tile map, and animation options for this scene!
+Apoyado con su libro, Pachaq y los héroes del libro están lístos para enfrentarse a los enemigos
+Que se les atraviesen.
 => END
