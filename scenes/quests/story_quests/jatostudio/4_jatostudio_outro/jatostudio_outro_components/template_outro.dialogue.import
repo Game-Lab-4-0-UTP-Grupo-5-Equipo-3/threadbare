@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://i8tdhihfhkhr"
+path="res://.godot/imported/template_outro.dialogue-35a35734ceac21ec567447e29f02854a.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/jatostudio/4_jatostudio_outro/jatostudio_outro_components/template_outro.dialogue"
+dest_files=["res://.godot/imported/template_outro.dialogue-35a35734ceac21ec567447e29f02854a.tres"]
+
+[params]
+
+defaults=true

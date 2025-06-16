@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://b8wxmhrkcm6ln"
+path="res://.godot/imported/template_combat.dialogue-9ab1dee4b75f50eb3074bd287ed0ddf2.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/jatostudio/2_jatostudio_combat/jatostudio_combat_components/template_combat.dialogue"
+dest_files=["res://.godot/imported/template_combat.dialogue-9ab1dee4b75f50eb3074bd287ed0ddf2.tres"]
+
+[params]
+
+defaults=true

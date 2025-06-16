@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dlorw8ccaom0r"
+path="res://.godot/imported/template_checkpoint.dialogue-04a4ef7741ae2d7fada00d922b1522c9.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/jatostudio/1_jatostudio_stealth/jatostudio_stealth_components/template_checkpoint.dialogue"
+dest_files=["res://.godot/imported/template_checkpoint.dialogue-04a4ef7741ae2d7fada00d922b1522c9.tres"]
+
+[params]
+
+defaults=true

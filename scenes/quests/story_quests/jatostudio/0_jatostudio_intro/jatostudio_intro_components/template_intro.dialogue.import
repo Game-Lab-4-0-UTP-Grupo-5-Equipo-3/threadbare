@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://cm28is3ncwyid"
+path="res://.godot/imported/template_intro.dialogue-607aec4143f805a102a0e831a677ac5f.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/jatostudio/0_jatostudio_intro/jatostudio_intro_components/template_intro.dialogue"
+dest_files=["res://.godot/imported/template_intro.dialogue-607aec4143f805a102a0e831a677ac5f.tres"]
+
+[params]
+
+defaults=true

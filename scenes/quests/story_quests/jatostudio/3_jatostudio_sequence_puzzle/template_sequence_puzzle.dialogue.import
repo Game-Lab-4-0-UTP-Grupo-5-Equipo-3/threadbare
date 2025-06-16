@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://hxmk8v6ap8d0"
+path="res://.godot/imported/template_sequence_puzzle.dialogue-e552c856f7bfe16d245baf453af8ccc2.tres"
+
+[deps]
+
+source_file="res://scenes/quests/story_quests/jatostudio/3_jatostudio_sequence_puzzle/template_sequence_puzzle.dialogue"
+dest_files=["res://.godot/imported/template_sequence_puzzle.dialogue-e552c856f7bfe16d245baf453af8ccc2.tres"]
+
+[params]
+
+defaults=true
