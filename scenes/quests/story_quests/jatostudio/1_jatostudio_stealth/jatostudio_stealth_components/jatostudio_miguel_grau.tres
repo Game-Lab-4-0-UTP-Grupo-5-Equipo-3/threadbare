@@ -1,0 +1,66 @@
+[gd_resource type="SpriteFrames" load_steps=10 format=3 uid="uid://bd47f1hb2ttje"]
+
+[ext_resource type="Texture2D" uid="uid://bn1t0mha2r4dg" path="res://scenes/quests/story_quests/jatostudio/jatostudio_player_components/SPRITE_GT/START MIGUEL GRAU CROPPED.png" id="1_3uiss"]
+[ext_resource type="Texture2D" uid="uid://dvnyvdmb66kln" path="res://scenes/quests/story_quests/jatostudio/jatostudio_player_components/SPRITE_GT_2/SPRITE_GT/ATACK MIGUEL GRAU 2.png" id="1_kiy4r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihwso"]
+atlas = ExtResource("1_kiy4r")
+region = Rect2(512, 0, 256, 296)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i6sbx"]
+atlas = ExtResource("1_kiy4r")
+region = Rect2(768, 0, 256, 296)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5jpms"]
+atlas = ExtResource("1_kiy4r")
+region = Rect2(256, 0, 256, 296)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hdan1"]
+atlas = ExtResource("1_kiy4r")
+region = Rect2(0, 296, 256, 296)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kiy4r"]
+atlas = ExtResource("1_3uiss")
+region = Rect2(0, 0, 341, 523)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_85dd0"]
+atlas = ExtResource("1_3uiss")
+region = Rect2(341, 0, 341, 523)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1me87"]
+atlas = ExtResource("1_3uiss")
+region = Rect2(682, 0, 341, 523)
+
+[resource]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ihwso")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i6sbx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5jpms")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hdan1")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kiy4r")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_85dd0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1me87")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
