@@ -205,7 +205,7 @@ position = Vector2(338, 208)
 scale = Vector2(1.10761, 1.1568)
 
 [node name="Tree05" parent="TileMapLayers" instance=ExtResource("4_u475o")]
-position = Vector2(581, 358)
+position = Vector2(561, 359)
 scale = Vector2(1.10761, 1.1568)
 
 [node name="Tree06" parent="TileMapLayers" instance=ExtResource("4_u475o")]
