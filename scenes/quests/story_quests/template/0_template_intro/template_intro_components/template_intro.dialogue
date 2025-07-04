@@ -4,11 +4,11 @@
 ~ start
 do animation_player.play(&"walk_on")
 do animation_player.animation_finished
-Welcome to the StoryQuest template, where you'll learn how to mod elements of each scene and create your own StoryQuest! Let's start with the intro.
-In the Godot FileSystem, find the intro folder and double-click on the intro dialogue file to edit the text.
-Press enter to add a new line. Each line becomes a new dialogue box in-game.
-Select Cinematic node; drag your StoryQuest dialogue to the "Dialogue" field in the Inspector.
-Set the next scene using the "Next Scene" field in the Inspector.
+Pachaq, un joven estudiante y amante de la historia, busca información para su proyecto escolar.
+Pachaq camina a través de las estanterías en búsqueda de libros de historia.
+Su curiosidad lo termina llevando a la sección más olvidada de la biblioteca, donde encuentra...
+...Un libro polvoriento oculto detrás de uno de los estantes.
+Entonces, el libro misterioso cae y se abre, emitiendo una luz ancestral.
 do animation_player.play(&"walk_off")
-Explore other elements to mod, like the placeholder image, tile map, and animation options for this scene!
+¡Manco Capac, el primer inca, emerge del libro!
 => END

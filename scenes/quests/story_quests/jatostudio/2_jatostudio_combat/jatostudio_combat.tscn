@@ -39,7 +39,7 @@ tile_set = ExtResource("3_7wuvr")
 y_sort_enabled = true
 
 [node name="Player" parent="OnTheGround" instance=ExtResource("4_lvp4s")]
-position = Vector2(348, 335)
+position = Vector2(262, 430)
 
 [node name="ThrowingNPC" parent="OnTheGround" instance=ExtResource("5_ranhy")]
 position = Vector2(857, 300)

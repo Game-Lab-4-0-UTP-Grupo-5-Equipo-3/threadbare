@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=4 uid="uid://baumlixmqbp35"]
+[gd_scene load_steps=21 format=4 uid="uid://baumlixmqbp35"]
 
 [ext_resource type="TileSet" uid="uid://07fq3rspk8ia" path="res://scenes/tileset.tres" id="1_6h36r"]
 [ext_resource type="SpriteFrames" uid="uid://vwf8e1v8brdp" path="res://scenes/quests/story_quests/template/template_player_components/template_player.tres" id="3_fk6s0"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://7873qa54birk" path="res://scenes/game_elements/props/tree/tree.tscn" id="4_u475o"]
 [ext_resource type="Resource" uid="uid://cqjngitoc5yx7" path="res://scenes/quests/story_quests/template/0_template_intro/template_intro_components/template_intro.dialogue" id="5_dxtci"]
 [ext_resource type="PackedScene" uid="uid://v3usqiwy5wpr" path="res://scenes/game_elements/props/decoration/rock/rock.tscn" id="6_3c7qq"]
+[ext_resource type="Texture2D" uid="uid://cm141njkolnr8" path="res://scenes/quests/story_quests/jatostudio/0_jatostudio_intro/jatostudio_intro_components/INTRO.png" id="8_jeo1j"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0ownb"]
 atlas = ExtResource("4_jeo1j")
@@ -252,3 +253,8 @@ metadata/_custom_type_script = "uid://x1mxt6bmei2o"
 
 [node name="Rock" parent="." instance=ExtResource("6_3c7qq")]
 position = Vector2(338, 189)
+
+[node name="Intro" type="Sprite2D" parent="."]
+position = Vector2(769.5, 223)
+scale = Vector2(0.46831, 0.676056)
+texture = ExtResource("8_jeo1j")
